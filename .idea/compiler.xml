@@ -6,7 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sanc-rpc-Framework" />
+        <module name="sanc-client" />
+        <module name="rpc-api" />
+        <module name="rpc-core" />
+        <module name="rpc-common" />
+        <module name="sanc-server" />
       </profile>
     </annotationProcessing>
   </component>
